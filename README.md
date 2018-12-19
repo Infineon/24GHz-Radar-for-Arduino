@@ -2,6 +2,8 @@
 
 This repository integrates [Infineon's](https://www.infineon.com/) Sense2GoL 24GHz Radar into the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
+<img src="https://www.infineon.com/export/sites/default/media/products/Small_Signal_Discretes/sense2goL-Board.JPG_1308556468.jpg" width="300" />
+
 ## Contents
 - [Contents](#contents)
 - [Supported 24GHz Boards](#supported-24ghz-boards)
@@ -19,7 +21,7 @@ This repository integrates [Infineon's](https://www.infineon.com/) Sense2GoL 24G
 
 Please visit also the boards maker homepage page for additional information, e.g. quickstart guides, additional information, etc.:
 
-[LinkToPage](#)
+[http://makeradar.com/](http://makeradar.com/)
 
 Additionally, please consult the [releases](https://github.com/Infineon/24GHz-Radar-for-Arduino/releases) for information about the changes and new versions.
 This repository is based on the [XMC-for-Arduino](https://github.com/Infineon/XMC-for-Arduino) and mainly integrates the Radar boards only in combination with additional documentation.
@@ -39,12 +41,12 @@ If you have already installed '[DAVE™ - Development Platform for XMC™ Microc
 
 Paste the following URL into the 'Additional Boards Manager URLs' input field under **File** > **Preferences** to add Infineon's microcontroller boards to the Arduino IDE.
 
-https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json
+https://github.com/Infineon/24GHz-Radar-for-Arduino/releases/download/V1.0.0/package_infineon_24GHz_index.json
 
 Easier to copy (no clickable link):
 
 ```
-https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json
+https://github.com/Infineon/24GHz-Radar-for-Arduino/releases/download/V1.0.0/package_infineon_24GHz_index.json
 ```
 
 ![Adding a Board JSON](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Preferences_JSON.png)
