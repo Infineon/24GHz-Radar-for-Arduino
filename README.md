@@ -1,40 +1,28 @@
-[![Build Status](https://travis-ci.org/Infineon/XMC-for-Arduino.svg?branch=master)](https://travis-ci.org/Infineon/XMC-for-Arduino)
-# Infineon's XMC Microcontroller Boards for Arduino
+# Infineon's 24GHz Radar Board Sense2GoL for Arduino
 
-This repository integrates [Infineon's](https://www.infineon.com/) XMC microcontrollers into the [Arduino IDE](https://www.arduino.cc/en/main/software) and [PlatformIO IDE](https://platformio.org/platformio-ide?utm_source=github&utm_medium=xmc-for-arduino).
+This repository integrates [Infineon's](https://www.infineon.com/) Sense2GoL 24GHz Radar into the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
 ## Contents
-- [Supported Microcontroller Boards](#supported-microcontroller-boards)
+- [Contents](#contents)
+- [Supported 24GHz Boards](#supported-24ghz-boards)
 - [Additional Information](#additional-information)
 - [Installation Instructions](#installation-instructions)
-  * [Prework for SEGGER J-Link](#prework-for-segger-j-link)
-  * [Using Arduino IDE](#using-arduino-ide)
-  * [Using PlatformIO IDE](#using-platformio-ide)
+    - [Prework for SEGGER J-Link](#prework-for-segger-j-link)
+    - [Using Arduino IDE](#using-arduino-ide)
 - [Additional Contributors](#additional-contributors)
 
-## Supported Microcontroller Boards
+## Supported 24GHz Boards
 
-* [XMC1100 XMC 2Go](https://www.infineon.com/cms/en/product/evaluation-boards/KIT_XMC_2GO_XMC1100_V1/productType.html?productType=db3a304443537c4e01436ccecb5d154f)
-* [XMC1100 H-Bridge 2Go](https://www.infineon.com/cms/de/product/evaluation-boards/h-bridge-kit-2go/)
-* [XMC1100 Boot Kit](https://www.infineon.com/cms/en/product/evaluation-boards/KIT_XMC11_BOOT_001/productType.html?productType=db3a30443b360d0e013b8f5163c46f62#ispnTab1)
-* [XMC1300 Boot Kit](https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc13_boot_001/)
 * [XMC1300 Sense2GoL](https://www.infineon.com/cms/de/product/evaluation-boards/demo-sense2gol/)
-* [XMC4700 Relax Kit](https://www.infineon.com/cms/en/product/evaluation-boards/KIT_XMC47_RELAX_LITE_V1/productType.html?productType=5546d46250cc1fdf0150f6a2788e6e89)
 
 ## Additional Information
 
-Please visit also the Wiki for additional information, e.g. datasheets, pin out diagrams, etc.:
+Please visit also the boards maker homepage page for additional information, e.g. quickstart guides, additional information, etc.:
 
-[XMC-for-Arduino Wiki](https://github.com/Infineon/XMC-for-Arduino/wiki)
+[LinkToPage](#)
 
-* Page for [XMC1100 XMC 2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC-2Go)
-* Page for [XMC1100 H-Bridge 2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1100-H%E2%80%90Bridge-2Go)
-* Page for [XMC1100 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1100-Boot-Kit)
-* Page for [XMC1300 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Boot-Kit)
-* Page for [XMC1300 Sense2GoL](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Sense2GoL)
-* Page for [XMC4700 Relax Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4700-Relax-Kit)
-
-Additionally, please consult the [releases](https://github.com/Infineon/XMC-for-Arduino/releases) for information about the changes and new versions.
+Additionally, please consult the [releases](https://github.com/Infineon/24GHz-Radar-for-Arduino/releases) for information about the changes and new versions.
+This repository is based on the [XMC-for-Arduino](https://github.com/Infineon/XMC-for-Arduino) and mainly integrates the Radar boards only in combination with additional documentation.
 
 ## Installation Instructions
 
@@ -61,7 +49,7 @@ https://github.com/Infineon/Assets/releases/download/current/package_infineon_in
 
 ![Adding a Board JSON](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Preferences_JSON.png)
 
-To install the boards, please navigate to **Tools** > **Board** > **Boards Manager...** and search for XMC. You will find options to install the board files for the microcontrollers. Click "Install" to add the boards to your Arduino IDE.
+To install the boards, please navigate to **Tools** > **Board** > **Boards Manager...** and search for `24GHz Radar`. You will find options to install the board files for the microcontrollers. Click "Install" to add the boards to your Arduino IDE.
 
 ![Infineon Board Entry](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Boards_Manager_Entry.png)
 
@@ -72,18 +60,8 @@ In the boards list **Tools** > **Board**, the XMC microcontroller boards are add
 **Important Notes**
 
 * This integration will only work for Arduino IDE >=1.5
-* The XMC1100 Boot Kit has limitations if compared to the official Arduino boards (consult the [XMC-for-Arduino Wiki](https://github.com/Infineon/XMC-for-Arduino/wiki) for more information)
 * Refer also to the LICENSE.md/txt file for further information
 * Arduino 1.8.0 IDE might have problems with the XMC-for-Arduino releases
-
-### Using PlatformIO IDE
-
-- [What is PlatformIO?](http://docs.platformio.org/en/latest/what-is-platformio.html?utm_source=github&utm_medium=xmc-for-arduino)
-- [PlatformIO IDE](http://platformio.org/platformio-ide?utm_source=github&utm_medium=xmc-for-arduino)
-- [PlatformIO Core (CLI)](http://docs.platformio.org/en/latest/core.html?utm_source=github&utm_medium=xmc-for-arduino) (command line tool)
-- [Integration with Cloud and Desktop IDEs](http://docs.platformio.org/en/latest/ide.html?utm_source=github&utm_medium=xmc-for-arduino) -
-  Cloud9, Codeanywhere, Eclipse Che (Codenvy), Atom, CLion, Eclipse, Emacs, NetBeans, Qt Creator, Sublime Text, VIM, Visual Studio, and VSCode
-- [Project Examples](https://github.com/Infineon/platformio-infineonxmc/tree/master/examples)
 
 ## Additional Contributors
 
