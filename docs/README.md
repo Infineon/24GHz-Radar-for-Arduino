@@ -5,7 +5,7 @@
 ## What is this about?
 This documentation helps you to get started with Infineon's radar chips. We also interactively teach you some radar bascis, so you know what's going on with your board. Finally we have some demo uses cases that you can explore to get an idea of what's possible with radar.
 
-To get started right away, [explore what your board can do](explore.md) or [code your first project](develop.md).
+To get started right away, [explore what your board can do](pages/explore.md) or [code your first project](pages/develop.md).
 
 ## Features
 * Get started with your radar board [here](explore.md)
