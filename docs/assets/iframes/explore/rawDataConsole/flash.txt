@@ -1,0 +1,1 @@
+java -jar C:\Users\schmikon\AppData\Local\Arduino15\packages\Infineon\tools\XMCFlasher\1.2.1/XMCFlasher.jar -p C:\Users\schmikon\AppData\Local\Temp\arduino_build_176774/readRawData.ino.hex -device XMC1302-0032 
