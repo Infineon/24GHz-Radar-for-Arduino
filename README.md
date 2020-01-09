@@ -23,7 +23,7 @@ This repository integrates [Infineon's](https://www.infineon.com/) Sense2GoL 24G
 
 Please visit also the boards maker homepage page for additional information, e.g. quickstart guides, additional information, etc.:
 
-[http://makeradar.com/](http://makeradar.com/)
+[http://makeradar.com/](https://www.infineon.com/cms/en/product/promopages/makeradar/)
 
 Additionally, please consult the [releases](https://github.com/Infineon/24GHz-Radar-for-Arduino/releases) for information about the changes and new versions.
 This repository is based on the [XMC-for-Arduino](https://github.com/Infineon/XMC-for-Arduino) and mainly integrates the Radar boards only in combination with additional documentation.
